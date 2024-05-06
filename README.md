@@ -28,8 +28,13 @@ There should be no OS requirements. The code has been tested on machines with co
 
 ## Installation Guide
 
-Clone repo contents from Github:
-`git clone https://github.com/LucksLab/Bushhouse_Riboswitch_Sensitivity_2024`
+Clone repo contents from Github (should take a few seconds):
+```
+git clone https://github.com/LucksLab/Bushhouse_Riboswitch_Sensitivity_2024
+```
 
 Open using Jupyter Notebook in an environment satisfying above requirements.
 
+## Demo Data for Fitting Code
+
+`Supp_Code_File_Hill-Fitting.ipynb` can be tested on the demo data provided in `DEMO.xlsx`. This should produce an output `.csv` with an EC50 calculation of 116.4279 μM. This should take less than a second.
